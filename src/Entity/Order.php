@@ -48,7 +48,7 @@ class Order
 
     /**
      * @var string
-     * @ORM\Column(name="name", type="string", length=255, options={default:'customer'})
+     * @ORM\Column(name="name", type="string", length=255, options={"default":"customer"})
      */
     private $name;
 
