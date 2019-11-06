@@ -18,6 +18,7 @@
                         <th scope="row">{{ order.number }}</th>
                         <td>{{ order.amount }}€</td>
                         <td>{{ order.status }}</td>
+                        <td>{{ order.name }}</td>
                         <td><a href="{{ path('orders_detail', {id: order.number}) }}" class="btn btn-primary">Voir</a></td>
                     </tr>
                 {% endfor %}
